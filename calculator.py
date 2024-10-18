@@ -3,7 +3,6 @@ def calculator():
     num1 = float(input("Введіть перше число: "))
     operation = input("Введіть операцію (+, -, *, /): ")
 
-    # Введення другого числа
     num2 = float(input("Введіть друге число: "))
     if operation == "+":
         result = num1 + num2
